@@ -1,14 +1,14 @@
 {
-  "name": "angular-openlayers-directive",
-  "author": "David Rubert <a@a.com>",
+  "name": "angular-openlayers-directive-4",
+  "author": "Vadzim Zapolski <v.zapolskydovnar@gmail.com>",
   "contributors": [
-    "Juri Strumpflohner <juri.strumpflohner@gmail.com>"
+    "Vadzim Zapolski <v.zapolskydovnar@gmail.com>"
   ],
   "description": "angular-openlayers-directive - An AngularJS directive to easily interact with Openlayers maps",
-  "homepage": "http://tombatossals.github.io/angular-openlayers-directive/",
+  "homepage": "http://vadzappa.github.io/angular-openlayers-directive/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tombatossals/angular-openlayers-directive"
+    "url": "https://github.com/vadzappa/angular-openlayers-directive"
   },
   "keywords": [
     "angularjs",
