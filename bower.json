@@ -11,14 +11,14 @@
     "dist/angular-openlayers-directive.js"
   ],
   "dependencies": {
-    "angular": "1.5.6",
-    "angular-sanitize": "1.5.6",
+    "angular": "~1.5.6",
+    "angular-sanitize": "~1.5.6",
     "openlayers": "https://github.com/openlayers/openlayers/releases/download/v4.4.2/v4.4.2-dist.zip"
   },
   "devDependencies": {
     "jquery": "*",
-    "angular-route": "1.5.6",
-    "angular-mocks": "1.5.6",
+    "angular-route": "~1.5.6",
+    "angular-mocks": "~1.5.6",
     "js-polyfills": "^0.1.20"
   },
   "ignore": [
@@ -36,9 +36,9 @@
     "bower_components"
   ],
   "resolutions": {
-    "angular": "1.5.6",
-    "angular-sanitize": "1.5.6",
-    "angular-route": "1.5.6",
-    "angular-mocks": "1.5.6"
+    "angular": "~1.5.6",
+    "angular-sanitize": "~1.5.6",
+    "angular-route": "~1.5.6",
+    "angular-mocks": "~1.5.6"
   }
 }
