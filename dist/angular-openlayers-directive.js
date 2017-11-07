@@ -1305,6 +1305,10 @@ angular.module('openlayers-directive').factory('olHelpers', ["$q", "$log", "$htt
         };
     };
 
+    var getInteractionClasses = function() {
+        return ol.interaction;
+    };
+
     var mapQuestLayers = ['osm', 'sat', 'hyb'];
 
     var esriBaseLayers = ['World_Imagery', 'World_Street_Map', 'World_Topo_Map',
@@ -2272,6 +2276,7 @@ angular.module('openlayers-directive').factory('olHelpers', ["$q", "$log", "$htt
         },
 
         getControlClasses: getControlClasses,
+        getInteractionClasses: getInteractionClasses,
 
         detectControls: function(controls) {
             var actualControls = {};
