@@ -1879,7 +1879,7 @@ angular.module('openlayers-directive').factory('olHelpers', function($q, $log, $
                 });
                 break;
             case 'ImageStatic':
-                if (!source.url || !angular.isArray(source.imageSize) || source.imageSize.length !== 2) {
+                if (!source.url) {
                     $log.error('[AngularJS - Openlayers] - You need a image URL to create a ImageStatic layer.');
                     return;
                 }
