@@ -2300,6 +2300,12 @@ angular.module('openlayers-directive').factory('olHelpers', ["$q", "$log", "$htt
                 case 'Polygon':
                     geometry = new ol.geom.Polygon(data.coords);
                     break;
+                case 'LineString':
+                    geometry = new ol.geom.LineString(data.coords);
+                    break;
+                case 'Circle':
+                    geometry = new ol.geom.Circle(data.center, data.radius);
+                    break;
                 default:
                     if (isDefined(data.coord) && data.projection === 'pixel') {
                         geometry = new ol.geom.Point(data.coord);
