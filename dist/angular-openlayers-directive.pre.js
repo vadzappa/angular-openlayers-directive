@@ -2013,6 +2013,10 @@ angular.module('openlayers-directive').factory('olHelpers', function($q, $log, $
             return angular.isNumber(value);
         },
 
+        transform: function(coordinates, projOne, projTwo) {
+            return ol.proj.transform(coordinates, projOne, projTwo);
+        },
+
         createView: function(view) {
             var projection = createProjection(view);
 
