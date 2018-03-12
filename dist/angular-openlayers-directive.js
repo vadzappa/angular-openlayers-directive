@@ -2280,6 +2280,9 @@ angular.module('openlayers-directive').factory('olHelpers', ["$q", "$log", "$htt
         },
 
         getControlClasses: getControlClasses,
+        createCustomControl: function(options) {
+            return new ol.control.Control(options);
+        },
         getInteractionClasses: getInteractionClasses,
 
         detectControls: function(controls) {
